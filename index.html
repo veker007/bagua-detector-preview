@@ -1,3 +1,27 @@
+<!-- Hairline license
+MIT License
+
+Copyright (c) 2026 Lucas Marques
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-->
 <!doctype html>
 <html lang="zh-CN">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='18' fill='%23244b3a'/%3E%3C/svg%3E"><title>八卦食品有害金属检测仪 · 科创演示台</title><style>@font-face{font-family:localHei;src:local("PingFang SC")}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f6ef;color:#273a30;font-family:localHei,"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:14px;line-height:1.65}button,input,select{font:inherit}button,a,input,summary,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer;border:0;background:none;color:inherit}button:disabled{cursor:not-allowed;opacity:.45}button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible{outline:3px solid #d3a144;outline-offset:4px}input[type=range]{accent-color:#315b45;cursor:pointer;width:100%}input:focus-visible{outline:2px solid #bf9037;outline-offset:3px}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}[hidden]{display:none!important}.header{height:78px;border-bottom:1px solid #dce1d4;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4vw,68px)}.brand{display:flex;gap:12px;align-items:center;font-weight:700;font-size:17px}.brand svg{width:38px;height:38px}.brand small{font-size:12px;letter-spacing:2px;font-weight:400;color:#728172;margin-left:11px}.header-right{display:flex;align-items:center;gap:28px}.prototype{font-size:12px;color:#627664}.prototype i{display:inline-block;width:6px;height:6px;background:#568662;border-radius:50%;margin-right:7px}.quiet{font-size:12px;color:#637264;padding:7px}.quiet:hover{color:#254c36}main{max-width:1640px;margin:auto;padding:36px clamp(20px,4vw,68px) 0}.intro{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:600;color:#6d805e;margin:0 0 9px}h1{font-size:clamp(24px,2.8vw,38px);line-height:1.35;letter-spacing:-1px;margin:0;font-weight:650}h2{font-size:22px;line-height:1.5;letter-spacing:-.5px;font-weight:650;margin:0}h3{font-size:14px;line-height:1.6;margin:0}.subtitle{color:#748071;font-size:13px;margin:10px 0 0}.intro-note{padding-left:24px;border-left:1px solid #d7decd;font-size:11px;color:#77826f}.intro-note span{font-weight:700;font-size:12px;color:#446440}.intro-note p{margin:4px 0}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 330px;border:1px solid #d6dece;background:#eeefe5;border-radius:16px;overflow:hidden}.stage{position:relative;min-width:0;display:flex;flex-direction:column;min-height:710px}.stage-top{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;position:relative;z-index:3;gap:8px}.mode-switch{display:flex;padding:4px;background:#e2e6d9;border-radius:9px}.mode-switch button{padding:8px 17px;font-size:12px;border-radius:6px;white-space:nowrap}.mode-switch button.active{background:#f9f8f0;color:#2c513d;box-shadow:0 1px 3px #51664419;font-weight:650}.power-badge{font-size:11px;color:#7a8271;white-space:nowrap}.power-badge.on{color:#315d40}#viewer{flex:1;min-height:505px;position:relative;overflow:hidden}#viewer canvas{position:absolute;top:0;left:0;width:100%;height:100%;touch-action:none}#loading{position:absolute;inset:0;display:grid;place-items:center;color:#667660;font-size:13px;z-index:2;pointer-events:none}#partLabels{position:absolute;inset:0;pointer-events:none;z-index:1}.model-label{position:absolute;left:0;top:0;background:#f8f8eee8;border:1px solid #ccd6c1;border-radius:4px;padding:3px 8px;font-size:10px;transform:translate(-50%,-50%);white-space:nowrap;box-shadow:0 2px 4px #2536200b}.model-label:before{content:"";position:absolute;left:50%;height:14px;width:1px;bottom:-14px;background:#829a79}.view-toolbar{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;position:relative;z-index:2;padding:10px 20px}.view{padding:6px 12px;background:#f5f5eac9;font-size:11px;border:1px solid #d2d9c9;border-radius:6px;color:#5b7059}.view:hover,.view.active{background:#dce6d5;color:#244a34}.stage-bottom{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-top:1px solid #d8decf;gap:20px}.drag-hint{color:#7d8975;font-size:10px}.lid-control{display:flex;gap:11px;align-items:center;font-size:11px;white-space:nowrap}.lid-control input{width:110px}.lid-control output{font-size:10px;min-width:28px}.part-info{position:absolute;left:22px;bottom:126px;max-width:300px;background:#faf9f1f5;padding:17px 20px;border:1px solid #ced7c4;border-radius:10px;z-index:4;box-shadow:0 8px 22px #293c2a0e}.part-info button{float:right;padding:0;font-size:20px}.part-info span{font-size:10px;color:#63845a}.part-info h3{margin-top:6px;font-size:16px}.part-info p{font-size:12px;color:#657660;margin:8px 0 0}.controls{background:#fbfaf3;border-left:1px solid #d6dece;padding:28px 25px}.control-title{padding-bottom:12px}.control-title h2{font-size:21px}.control-title>p:last-child:not(.eyebrow){font-size:12px;color:#6a7a61;margin:6px 0}.step{padding:18px 0;border-bottom:1px solid #e2e5d9}.step-head{display:flex;align-items:center;gap:11px}.number{font-size:12px;font-weight:600;color:#93a081;font-family:Georgia,serif}.step p{font-size:11px;color:#78826f;margin:8px 0 0 29px}.switch{margin-left:auto;width:37px;height:21px;background:#d7dbcf;border-radius:99px;padding:3px;transition:background .2s}.switch span{display:block;width:15px;height:15px;border-radius:50%;background:#fbfaf2;transition:transform .2s}.switch[aria-checked=true]{background:#426e4c}.switch[aria-checked=true] span{transform:translateX(16px)}.samples{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}.sample{padding:13px 10px;border:1px solid #d7dece;border-radius:8px;text-align:left;background:#f3f3e9}.sample.active{border-color:#5b8256;background:#edf1e4;box-shadow:inset 0 0 0 1px #5b8256}.patch{display:block;width:29px;height:21px;border-radius:3px;margin-bottom:8px;border:1px solid #c9d1be}.patch.light{background:#dedfd5}.patch.dark{background:#52594e;border-color:#52594e}.sample strong{display:block;font-size:12px}.sample span{display:block;font-size:10px;color:#74816c;margin-top:2px}.range-title{display:flex;justify-content:space-between;font-size:11px;color:#65795d;margin:6px 0}.range-title output{font-weight:650;color:#39513c}.range-ends{display:flex;justify-content:space-between;color:#97a08a;font-size:9px;margin-top:-2px;margin-bottom:10px}.full{width:100%}.outline{border:1px solid #ccd6c0;padding:9px 12px;border-radius:7px;font-size:12px;background:#f6f6ec}.outline:hover{background:#e6ecd9}.primary{padding:12px 16px;border-radius:7px;background:#315c43;color:#fcfbf1;font-size:13px;font-weight:600}.primary:hover{background:#244a34}.primary span{float:right}.final-step{border:0;padding-bottom:12px}.final-step>.primary{margin-top:13px}.final-step>p{margin-left:0;min-height:18px}.result{display:flex;align-items:center;gap:13px;margin-top:14px;padding:14px 12px;background:#eef0e5;border-radius:8px;min-height:70px}.result-leds{display:flex;gap:5px}.result-leds i{width:12px;height:12px;background:#ccd6c7;border-radius:50%;border:1px solid #b5c5af}.result-leds .on-green{background:#4a9c67;box-shadow:0 0 0 4px #4a9c6718}.result-leds .on-red{background:#cb594d;box-shadow:0 0 0 4px #cb594d18}.result strong,.result span{display:block}.result strong{font-size:13px}.result span{font-size:10px;color:#7a8471;margin-top:2px}.result.normal{background:#e3eddd}.result.risk{background:#f6e6dc}.result.risk strong{color:#a94d3c}.settings{border-top:1px solid #e2e5d9;margin-top:7px;font-size:11px}.settings summary{cursor:pointer;padding:13px 0;color:#78846c;list-style:none;display:flex;justify-content:space-between}.settings p{color:#7b866f;font-size:10px}.wiring-actions{display:flex;gap:8px;margin:8px 0 15px}.wiring-actions button{font-size:11px;padding:7px 9px}.connection-status{display:flex;gap:8px;align-items:center;border-bottom:1px solid #dbe2d0;padding-bottom:9px;font-size:10px;color:#7b8871}.connection-status strong{font-size:16px;color:#335337}.connection-status button{margin-left:auto;padding:2px}.wire-list{display:flex;flex-direction:column;padding:5px 0}.wire-row{display:flex;align-items:center;gap:8px;text-align:left;padding:8px 6px;border-bottom:1px solid #e9ebdf;font-size:10px;border-radius:4px;min-height:36px}.wire-row:hover{background:#e7eedd}.wire-row.selected{background:#dde7d1}.wire-row .wire-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}.wire-row .wire-pin{font-weight:700;width:31px;font-size:11px}.wire-row .wire-target{flex:1}.wire-row .wire-state{font-size:12px;color:#4a7650}.wire-row.disconnected .wire-state{color:#adb599}.wire-info{font-size:11px;color:#647457;line-height:1.8;background:#eef1e4;padding:10px;border-radius:6px;margin:10px 0}.practice-panel{padding:10px 0;font-size:11px}.practice-panel select{margin:4px 5px 4px 0;padding:8px;border:1px solid #b6c6a9;border-radius:5px;background:#faf9f0}.practice-panel button{font-size:11px;padding:9px 12px}.practice-panel p,.check-feedback{color:#7f8973;font-size:10px;line-height:1.7}.flow-section{padding:29px 0 25px;border-bottom:1px solid #dce2d2}.flow-heading{display:flex;align-items:center;gap:16px;margin-bottom:18px}.flow-heading span{font-size:12px;font-weight:650}.flow-heading small{font-size:10px;color:#8d977f}.flow{display:flex;justify-content:space-between;align-items:center;gap:20px}.flow>div{padding:6px 12px 6px 0;border-radius:6px;transition:background .2s;flex:1}.flow>div.active{background:#e5eddd;padding-left:10px}.flow>div.done{color:#345f3f}.flow div>span{float:left;color:#99a687;font:italic 16px Georgia,serif;margin-right:12px;margin-top:5px}.flow strong,.flow small{display:block}.flow strong{font-size:12px;font-weight:600}.flow small{font-size:10px;color:#8a957e}.flow b{font-size:14px;color:#abb39f;font-weight:400}.telemetry{display:flex;gap:27px;margin-top:23px;color:#8a957d;font-size:10px;padding-top:13px;border-top:1px dashed #d8dece}.telemetry strong{color:#50744a;font-weight:650;margin-left:6px}.telemetry small{margin-left:7px;color:#9b9e8d;font-size:9px}.circuit-section{padding:36px 0 24px;border-bottom:1px solid #dce2d2}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.legend{display:flex;gap:18px;font-size:10px;color:#7a8a6c}.legend i{display:inline-block;width:9px;height:3px;vertical-align:middle;margin-right:7px}.schematic-wrap{background:#f0f2e7;border:1px solid #d9e0ce;border-radius:12px;overflow:auto}.schematic-wrap svg{display:block;width:100%;min-width:750px}#schematic text{font-family:localHei,"Microsoft YaHei",sans-serif}#schematic [data-wire]{cursor:pointer;transition:opacity .2s}#schematic [data-wire]:focus{outline:none;filter:drop-shadow(0 0 3px #bda659)}.diagram-note{font-size:11px;color:#849278}.explain-section{display:grid;grid-template-columns:1fr 1.28fr;gap:12%;padding:49px 0 47px}.explain-section h2{font-size:clamp(22px,2.5vw,31px);line-height:1.6}.explain-copy p{font-size:12px;color:#6e7e62;margin:0 0 14px;line-height:1.95}.explain-copy strong{font-weight:600;color:#3d5f38}.explain-copy details{font-size:11px;color:#76886b}.explain-copy summary{cursor:pointer;padding-top:12px;border-top:1px solid #dce2d2}.explain-copy ul{padding-left:18px;line-height:1.9}.explain-copy li{margin:8px 0}footer{border-top:1px solid #dce2d2;display:flex;justify-content:space-between;gap:20px;padding:22px 0 30px;font-size:9px;color:#929c84}footer a:hover{color:#4b7041}#toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,16px);opacity:0;pointer-events:none;background:#2d4b37;color:#faf9ef;padding:11px 20px;border-radius:8px;font-size:12px;z-index:10;transition:opacity .2s,transform .2s;max-width:90vw}#toast.visible{opacity:1;transform:translate(-50%,0)}
@@ -81,6 +105,16 @@
 .next-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
 .structure-panel{padding:12px 0 28px}
 .panel-description{font-size:13px;color:#7b8b70;margin:9px 0 0}
+.hairline-showcase{display:grid;grid-template-columns:minmax(260px,.72fr) minmax(480px,1.28fr);gap:42px;align-items:center;margin:27px 0 38px;padding:29px 31px;background:#edf1e5;border:1px solid #d5dec9;border-radius:12px}
+.hairline-copy h3{font-size:clamp(22px,2.8vw,34px);line-height:1.38;letter-spacing:-.4px;max-width:430px}
+.hairline-copy>p:not(.eyebrow){font-size:13px;line-height:1.85;color:#64765c;margin:15px 0 0;max-width:440px}
+.hairline-copy ol{list-style:none;margin:22px 0 0;padding:0;border-top:1px solid #d2dcc7}
+.hairline-copy li{display:grid;grid-template-columns:112px 1fr;gap:10px;padding:11px 0;border-bottom:1px solid #d2dcc7;font-size:12px}
+.hairline-copy li strong{font-weight:650;color:#36583c}.hairline-copy li span{color:#75856c}
+.hairline-copy .hairline-note{font-size:11px!important;color:#809076!important;margin-top:14px!important}
+.hairline-frame-wrap{min-width:0}.hairline-frame-wrap iframe{display:block;width:100%;height:650px;border:0;border-radius:10px;background:#fff;box-shadow:0 1px 0 #fff inset}
+.hairline-frame-wrap>span{display:block;margin-top:8px;text-align:center;color:#7a8a70;font-size:10px}
+.subsection-heading{display:flex;align-items:baseline;gap:16px;padding-top:4px}.subsection-heading span{font-size:16px;font-weight:650;color:#3f5c40}.subsection-heading p{font-size:11px;color:#849178;margin:0}
 .drawing-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:23px 0 14px}
 .drawing-toolbar>div{display:flex;gap:5px;padding:4px;background:#e7ecde;border-radius:8px}
 .drawing-toolbar>div button{padding:9px 17px;font-size:13px;border-radius:5px;color:#6b7e5f}
@@ -93,13 +127,14 @@
 .structure-notes{display:grid;grid-template-columns:repeat(3,1fr);gap:45px;border-top:1px solid #d9e1ce;padding-top:23px}
 .structure-notes h3{font-size:14px;color:#3e613c}
 .structure-notes p{font-size:12px;color:#7c8a70;line-height:1.85;margin:7px 0 0}
-@media(max-width:1100px){.creative-hero{gap:30px;padding:30px 35px;grid-template-columns:1fr 280px}.creative-chapter{gap:25px;grid-template-columns:180px 1fr}}
+@media(max-width:1100px){.creative-hero{gap:30px;padding:30px 35px;grid-template-columns:1fr 280px}.creative-chapter{gap:25px;grid-template-columns:180px 1fr}.hairline-showcase{grid-template-columns:1fr;gap:20px}.hairline-copy{display:grid;grid-template-columns:1fr 1fr;gap:0 30px}.hairline-copy .eyebrow,.hairline-copy h3{grid-column:1}.hairline-copy>p:not(.eyebrow){grid-column:1}.hairline-copy ol{grid-column:2;grid-row:1/5;margin-top:0}.hairline-copy .hairline-note{grid-column:1}}
 @media(max-width:780px){
  .exhibit-tabs{gap:4px;margin-bottom:16px}.exhibit-tabs button{flex:1;padding:10px 6px;font-size:12px}.exhibit-tabs button span{font-size:11px;margin-right:3px}.exhibit-tabs>small{display:none}
  .power-button{min-height:44px;font-size:12px;padding:6px 10px}.power-route{font-size:10px}#powerCloseup{max-width:340px;margin-right:auto;margin-left:auto}
  .creative-hero{grid-template-columns:1fr;gap:22px;padding:28px 24px}.creative-hero h2{font-size:36px}.creative-lead{font-size:14px;margin:16px 0 20px}.idea-portrait{max-width:260px;margin:auto}.creative-actions .primary,.creative-actions .outline{font-size:12px;padding:10px 12px}
  .creative-chapter{grid-template-columns:1fr;gap:14px;padding:27px 0}.chapter-title h3{font-size:17px}.chapter-copy{font-size:13px}.design-points>div{grid-template-columns:95px 1fr;gap:10px}.materials{min-width:530px}
  .structure-panel .section-head h2{font-size:21px}.drawing-toolbar{align-items:flex-start;flex-wrap:wrap;gap:7px;margin-top:18px}.drawing-toolbar>div button{font-size:12px;padding:8px 13px}.drawing-toolbar>.quiet{padding:4px 0}
+ .hairline-showcase{display:block;margin:20px 0 29px;padding:22px 17px}.hairline-copy{display:block}.hairline-copy h3{font-size:24px}.hairline-copy ol{margin-top:17px}.hairline-copy li{grid-template-columns:105px 1fr}.hairline-frame-wrap{margin-top:19px}.hairline-frame-wrap iframe{height:590px}.subsection-heading{display:block}.subsection-heading p{margin-top:4px}
  .drawing-caption{flex-direction:column;gap:5px;font-size:11px}.structure-notes{grid-template-columns:1fr;gap:17px}
 }
 @media print{
@@ -172,12 +207,874 @@
  </section>
  <section id="structurePanel" role="tabpanel" aria-labelledby="structureTab" class="structure-panel" hidden>
   <div class="section-head"><div><p class="eyebrow">结构线稿 / 展示与制作参考</p><h2>从外观到内部，每个位置都有作用。</h2><p class="panel-description">按模型布局绘制的矢量线稿，放大依然清晰。</p></div><button id="viewAssembly" class="outline">到三维模型看拆解 ↗</button></div>
+  <section class="hairline-showcase" aria-labelledby="hairlineTitle">
+   <div class="hairline-copy"><p class="eyebrow">Hairline 互动结构</p><h3 id="hairlineTitle">移动一下，四层结构就会分开。</h3><p>这张等轴线稿把模型简化为太极顶盖、传感器、主控板和八边形底座。它用一条高亮轮廓指出当前部件，适合边操作边讲解。</p><ol><li><strong>左右移动</strong><span>控制四层之间的距离</span></li><li><strong>上下移动</strong><span>选择并强调一个部件</span></li><li><strong>调整 intensity</strong><span>改变最大拆解幅度</span></li></ol><p class="hairline-note">线稿负责讲清层级，真实位置与线路请继续参考下方工程图和三维模型。</p></div>
+   <div class="hairline-frame-wrap"><iframe id="hairlineFrame" title="八卦检测仪 Hairline 四层互动拆解图" loading="lazy" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Hairline figure&lt;/title&gt;
+&lt;link rel=&quot;icon&quot; href=&quot;data:,&quot;&gt;
+&lt;style&gt;
+  :root { color-scheme: light; --ground: #ffffff; --ink: #232327; --muted: #6f6f78; --line: #e0e0e4; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme=&quot;light&quot;]) { color-scheme: dark; --ground: #08090a; --ink: #d0d6e0; --muted: #8a8c95; --line: #29292d; }
+  }
+  :root[data-theme=&quot;dark&quot;] { color-scheme: dark; --ground: #08090a; --ink: #d0d6e0; --muted: #8a8c95; --line: #29292d; }
+  :root[data-theme=&quot;light&quot;] { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px 16px;
+    background: var(--ground); color: var(--ink);
+    font: 13px/1.5 ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif; -webkit-font-smoothing: antialiased;
+  }
+  main { width: 100%; max-width: 640px; }
+  .plate { position: relative; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .tag, .label, output, button { font: 11px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0.02em; }
+  .tag { position: absolute; top: 12px; z-index: 1; color: var(--muted); pointer-events: none; }
+  #name { left: 14px; }
+  #read { right: 14px; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin-top: 14px; }
+  .label { color: var(--muted); }
+  input[type=&quot;range&quot;] {
+    flex: 1 1 96px; min-width: 0; height: 32px; margin: 0; background: transparent; cursor: pointer;
+    -webkit-appearance: none; appearance: none;
+  }
+  input[type=&quot;range&quot;]::-webkit-slider-runnable-track { height: 1px; background: var(--muted); }
+  input[type=&quot;range&quot;]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 13px; height: 13px; margin-top: -6px; border-radius: 50%;
+    border: 1px solid var(--ink); background: var(--ground);
+  }
+  input[type=&quot;range&quot;]::-moz-range-track { height: 1px; background: var(--muted); }
+  input[type=&quot;range&quot;]::-moz-range-thumb { width: 11px; height: 11px; border-radius: 50%; border: 1px solid var(--ink); background: var(--ground); }
+  input[type=&quot;range&quot;]:focus-visible, button:focus-visible { outline: 1.5px solid var(--ink); outline-offset: 2px; }
+  output { min-width: 4ch; text-align: right; font-variant-numeric: tabular-nums; }
+  button {
+    height: 32px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px;
+    background: transparent; color: var(--ink); cursor: pointer;
+  }
+  #means { margin: 14px 0 0; text-wrap: pretty; }
+  #rules { margin: 6px 0 0; line-height: 1.6; }
+  #error { margin: 12px 0 0; padding-left: 10px; border-left: 1px solid var(--ink); }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;main&gt;
+  &lt;div class=&quot;plate&quot;&gt;
+    &lt;span class=&quot;tag&quot; id=&quot;name&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot; id=&quot;read&quot;&gt;&lt;/span&gt;
+    &lt;div id=&quot;stage&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;controls&quot;&gt;
+    &lt;label class=&quot;label&quot; for=&quot;intensity&quot;&gt;intensity&lt;/label&gt;
+    &lt;input id=&quot;intensity&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;1&quot; step=&quot;0.01&quot; value=&quot;0.5&quot;&gt;
+    &lt;output id=&quot;value&quot; for=&quot;intensity&quot;&gt;&lt;/output&gt;
+    &lt;span class=&quot;label&quot;&gt;theme&lt;/span&gt;
+    &lt;button id=&quot;theme&quot; type=&quot;button&quot; aria-label=&quot;Switch between the light and the dark theme&quot;&gt;&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;p id=&quot;means&quot;&gt;&lt;/p&gt;
+  &lt;p id=&quot;rules&quot; class=&quot;label&quot;&gt;&lt;/p&gt;
+  &lt;p id=&quot;error&quot; role=&quot;alert&quot; hidden&gt;&lt;/p&gt;
+&lt;/main&gt;
+&lt;script id=&quot;hl-kernel&quot;&gt;
+/* hairline kernel sha256:8e2abcbdf63c7755195ee942c39e9c8ea6a539d1147e986dd1c153559121f075 */
+/*
+ * HL: everything a figure may call. Read this index; the code under it is the
+ * package's src/core, unchanged, and a figure should not need to read it.
+ *
+ * Every figure is drawn in a 400 × 320 viewBox. World space is x/y on the
+ * ground and z up. Plates are filled with the ground colour and painted back
+ * to front, so a nearer one covers a farther one: append in that order. At
+ * the default camera, Cam(45, 0.5, S), +x runs down to the right and +y down
+ * to the left, so the corner with the largest x and y is nearest the viewer:
+ * append by ascending x + y, from the far corner (smallest x and y) to it.
+ *
+ * Camera
+ *   Cam(azDeg, k, S)                       a camera: azimuth in degrees, k = sin(elevation) (0.5 is the 2:1 view), S = scale
+ *   fit(C, points, cx, cy)                 centres the box of [x, y, z] points on (cx, cy); call it once, before proj
+ *                                          it only centres, it never scales: choose S by trying values, with the most extreme pose in points.
+ *                                          The six figures use S 1.42 to 2.12; the boxes they fit come out 230 to 310 wide and 180 to 245 tall
+ *   proj(C)                                returns P(x, y, z), which gives [sx, sy]
+ *   unproj(C, sx, sy, z)                   the world [x, y] under a screen point, on the plane at height z
+ *   facing(C)                              returns front(sample): whether a ring sample faces the camera
+ * Rounded solids
+ *   rrect(u0, v0, u1, v1, r, n)            a rounded rectangle, as a ring of samples {u, v, nu, nv}
+ *   circ(R, n)                             a circle, as a ring
+ *   rings(x0, y0, x1, y1, r, b)            [ring, inner]: a rounded footprint and its crease ring, inset by b
+ *                                          r, the corner radius, is cut to half the shorter side. b, the crease's inset in world units
+ *                                          (0.6 to 2.2 in the figures), must stay under half the shorter side or the crease turns inside out
+ *   prism(P, front, ring, inner, z0, z1)   {sil, crease}: a solid standing from z0 to z1, as two path strings
+ *   ringAt(P, ring, z)                     the ring's points, projected at height z
+ *   run(ring, keep)                        the one cyclic run of samples that pass keep
+ *   hull(points)                           the convex hull of screen points
+ *   extremes(P, ring)                      [left, right, nearest] samples: where dashed drops fall from
+ *   fillet(points, radii, n)               rounds every vertex of a closed polygon; returns the new points
+ *                                          radii is an array, one radius per vertex, each cut to half its shorter edge; a single number gives NaN.
+ *                                          n is the steps round each corner, default 4: each vertex becomes n + 1 points
+ *   ghost(P, front, ring, z0, depth)       a reflection's path {d, y0, y1}; reflect() draws it for you
+ * Paths and numbers
+ *   poly(points)                           a closed path string
+ *   open(points)                           an open polyline string
+ *   seg(a, b)                              one segment between two screen points [sx, sy], as its own subpath; project world points with P first
+ *   clamp(v, a, b)
+ *   lerp(a, b, t)
+ *   rad(deg)
+ *   r2(n)                                  two decimals
+ * The continuous clock: one spring per moving number
+ *   spring(x, opts)                        at rest on x; write .t to retarget; opts {k, c, m, eps}, default k 100, c 18, m 1
+ *   stepS(sp, dt)                          advances by dt seconds; returns whether it is still moving
+ * The discrete clock: a 700ms tween on (.32, .72, 0, 1)
+ *   tween(v, dur)                          at rest on v; dur defaults to 700 (ms)
+ *   tset(tw, to, now, delay)               retargets from where it is, after delay ms: the stagger
+ *                                          the same target again does nothing, so calling it on every pointer move is safe
+ *   tval(tw, now)                          its value at now
+ *   tdone(tw, now)                         whether it has landed
+ *   bezier(x1, y1, x2, y2)                 a CSS cubic-bezier, as a function of progress
+ *   EASE_LIFT                              the lift curve itself
+ *   reducedMotion()                        true when the reader asked for less motion; springs and tweens already land at once
+ *   setReducedMotion(on)                   the loop's business, not a figure's
+ * Drawing
+ *   mk(tag, attrs, parent)                 one svg element: the only way a figure makes a node
+ *   solid(parent)                          {g, sil, cr}: a group holding a silhouette path and a crease path
+ *   put(solid, paths)                      writes prism()'s {sil, crease} into solid()'s {sil, cr}: sil into sil, crease into cr
+ *   flatDot(parent, C, r, cls)             a dot lying on the ground plane; cls is &quot;dot&quot;, &quot;dot m&quot; or &quot;dot off&quot;
+ *   place(el, point)                       moves a dot or a circle to [sx, sy]
+ *   reflect(svg, parent, P, front, ring, z0, depth)   a fading mirror under a solid
+ *   fade(svg, y0, y1, a0)                  a vertical fade, as a mask; returns the value for a mask attribute
+ * Life
+ *   register(stage, tick)                  joins the one frame loop; tick(dt in seconds, now in ms) returns true to ask for another frame; gives {wake, unregister}
+ *   pointer(stage, handlers)               {move(point), down(point), leave()}, points in viewBox units; returns its disposer
+ *   disposer()                             {add, on, dispose}: collects tear-down, so destroy is bag.dispose
+ * The bench's business, not a figure's
+ *   css(lightDark)
+ *   inject(root)
+ *
+ * Classes, on path, polygon, ellipse and line. They are the whole palette; a
+ * figure sets no colour, width or fill of its own.
+ *     (none)   filled with the ground colour, medium stroke
+ *     sil      the silhouette's stroke        hi    the bright stroke: the only highlight
+ *     lo       the dim stroke                 nf    no fill        fo   fill only, no stroke
+ *     dash     a dashed guide
+ *     dot      a bright dot                   dot m   a medium dot     dot off   a dim dot
+ */
+var HL = (() =&gt; {
+  var __defProp = Object.defineProperty;
+  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __export = (target, all) =&gt; {
+    for (var name in all)
+      __defProp(target, name, { get: all[name], enumerable: true });
+  };
+  var __copyProps = (to, from, except, desc) =&gt; {
+    if (from &amp;&amp; typeof from === &quot;object&quot; || typeof from === &quot;function&quot;) {
+      for (let key of __getOwnPropNames(from))
+        if (!__hasOwnProp.call(to, key) &amp;&amp; key !== except)
+          __defProp(to, key, { get: () =&gt; from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+    }
+    return to;
+  };
+  var __toCommonJS = (mod) =&gt; __copyProps(__defProp({}, &quot;__esModule&quot;, { value: true }), mod);
+
+  // packages/hairline/src/core/kernel.ts
+  var kernel_exports = {};
+  __export(kernel_exports, {
+    Cam: () =&gt; Cam,
+    EASE_LIFT: () =&gt; EASE_LIFT,
+    bezier: () =&gt; bezier,
+    circ: () =&gt; circ,
+    clamp: () =&gt; clamp,
+    css: () =&gt; css,
+    disposer: () =&gt; disposer,
+    extremes: () =&gt; extremes,
+    facing: () =&gt; facing,
+    fade: () =&gt; fade,
+    fillet: () =&gt; fillet,
+    fit: () =&gt; fit,
+    flatDot: () =&gt; flatDot,
+    ghost: () =&gt; ghost,
+    hull: () =&gt; hull,
+    inject: () =&gt; inject,
+    lerp: () =&gt; lerp,
+    mk: () =&gt; mk,
+    open: () =&gt; open,
+    place: () =&gt; place,
+    pointer: () =&gt; pointer,
+    poly: () =&gt; poly,
+    prism: () =&gt; prism,
+    proj: () =&gt; proj,
+    put: () =&gt; put,
+    r2: () =&gt; r2,
+    rad: () =&gt; rad,
+    reducedMotion: () =&gt; reducedMotion,
+    reflect: () =&gt; reflect,
+    register: () =&gt; register,
+    ringAt: () =&gt; ringAt,
+    rings: () =&gt; rings,
+    rrect: () =&gt; rrect,
+    run: () =&gt; run,
+    seg: () =&gt; seg,
+    setReducedMotion: () =&gt; setReducedMotion,
+    solid: () =&gt; solid,
+    spring: () =&gt; spring,
+    stepS: () =&gt; stepS,
+    tdone: () =&gt; tdone,
+    tset: () =&gt; tset,
+    tval: () =&gt; tval,
+    tween: () =&gt; tween,
+    unproj: () =&gt; unproj
+  });
+
+  // packages/hairline/src/core/iso.ts
+  var clamp = (v, a, b) =&gt; Math.max(a, Math.min(b, v));
+  var lerp = (a, b, t) =&gt; a + (b - a) * t;
+  var rad = (d) =&gt; d * Math.PI / 180;
+  var r2 = (n) =&gt; Math.round(n * 100) / 100;
+  var poly = (pts) =&gt; &quot;M&quot; + pts.map((p) =&gt; r2(p[0]) + &quot; &quot; + r2(p[1])).join(&quot;L&quot;) + &quot;Z&quot;;
+  var seg = (a, b) =&gt; `M${r2(a[0])} ${r2(a[1])}L${r2(b[0])} ${r2(b[1])}`;
+  var open = (pts) =&gt; pts.length &lt; 2 ? &quot;&quot; : &quot;M&quot; + pts.map((p) =&gt; r2(p[0]) + &quot; &quot; + r2(p[1])).join(&quot;L&quot;);
+  var Cam = (azDeg, k, S) =&gt; ({ az: rad(azDeg), k, S, ox: 0, oy: 0 });
+  function proj(C) {
+    const c = Math.cos(C.az), s = Math.sin(C.az), zf = Math.sqrt(1 - C.k * C.k);
+    return (x, y, z) =&gt; {
+      const X = x * c - y * s, Y = x * s + y * c;
+      return [C.ox + C.S * X, C.oy + C.S * (Y * C.k - z * zf)];
+    };
+  }
+  function unproj(C, sx, sy, z) {
+    const c = Math.cos(C.az), s = Math.sin(C.az), zf = Math.sqrt(1 - C.k * C.k);
+    const X = (sx - C.ox) / C.S, Y = ((sy - C.oy) / C.S + z * zf) / C.k;
+    return [X * c + Y * s, -X * s + Y * c];
+  }
+  function fit(C, pts, cx, cy) {
+    C.ox = 0;
+    C.oy = 0;
+    const P = proj(C);
+    let a = 1e9, b = -1e9, c = 1e9, d = -1e9;
+    for (const p of pts) {
+      const q = P(p[0], p[1], p[2]);
+      a = Math.min(a, q[0]);
+      b = Math.max(b, q[0]);
+      c = Math.min(c, q[1]);
+      d = Math.max(d, q[1]);
+    }
+    C.ox = cx - (a + b) / 2;
+    C.oy = cy - (c + d) / 2;
+  }
+  function rrect(u0, v0, u1, v1, r, n = 4) {
+    r = Math.max(0, Math.min(r, (u1 - u0) / 2, (v1 - v0) / 2));
+    const out = [];
+    for (const [cu, cv, a0] of [[u1 - r, v1 - r, 0], [u0 + r, v1 - r, 90], [u0 + r, v0 + r, 180], [u1 - r, v0 + r, 270]])
+      for (let k = 0; k &lt;= n; k++) {
+        const a = rad(a0 + 90 * k / n), ca = Math.cos(a), sa = Math.sin(a);
+        out.push({ u: cu + r * ca, v: cv + r * sa, nu: ca, nv: sa });
+      }
+    return out;
+  }
+  function circ(R, n = 96) {
+    const out = [];
+    for (let k = 0; k &lt; n; k++) {
+      const a = k / n * Math.PI * 2, ca = Math.cos(a), sa = Math.sin(a);
+      out.push({ u: R * ca, v: R * sa, nu: ca, nv: sa });
+    }
+    return out;
+  }
+  function hull(input) {
+    const pts = input.slice().sort((a, b) =&gt; a[0] - b[0] || a[1] - b[1]);
+    const x = (o, a, b) =&gt; (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lo = [], up = [];
+    for (const p of pts) {
+      while (lo.length &gt; 1 &amp;&amp; x(lo[lo.length - 2], lo[lo.length - 1], p) &lt;= 0) lo.pop();
+      lo.push(p);
+    }
+    for (let i = pts.length - 1; i &gt;= 0; i--) {
+      const p = pts[i];
+      while (up.length &gt; 1 &amp;&amp; x(up[up.length - 2], up[up.length - 1], p) &lt;= 0) up.pop();
+      up.push(p);
+    }
+    lo.pop();
+    up.pop();
+    return lo.concat(up);
+  }
+  var ringAt = (P, ring, z) =&gt; ring.map((q) =&gt; P(q.u, q.v, z));
+  var facing = (C) =&gt; {
+    const s = Math.sin(C.az), c = Math.cos(C.az);
+    return (q) =&gt; q.nu * s + q.nv * c &gt;= -1e-6;
+  };
+  function run(ring, keep) {
+    const n = ring.length;
+    let s = -1;
+    for (let i = 0; i &lt; n; i++) if (keep(ring[i]) &amp;&amp; !keep(ring[(i + n - 1) % n])) {
+      s = i;
+      break;
+    }
+    if (s &lt; 0) return keep(ring[0]) ? ring.slice() : [];
+    const out = [];
+    for (let k = 0; k &lt; n &amp;&amp; keep(ring[(s + k) % n]); k++) out.push(ring[(s + k) % n]);
+    return out;
+  }
+  function prism(P, front, ring, inner, z0, z1) {
+    return {
+      sil: poly(hull(ringAt(P, ring, z1).concat(ringAt(P, ring, z0)))),
+      crease: inner ? open(ringAt(P, run(inner, front), z1)) : &quot;&quot;
+    };
+  }
+  var rings = (x0, y0, x1, y1, r, b) =&gt; [
+    rrect(x0, y0, x1, y1, r),
+    rrect(x0 + b, y0 + b, x1 - b, y1 - b, Math.max(0.3, r - b))
+  ];
+  function extremes(P, ring) {
+    const pr = ring.map((q) =&gt; P(q.u, q.v, 0));
+    let a = 0, b = 0, c = 0;
+    pr.forEach((p, k) =&gt; {
+      if (p[0] &lt; pr[a][0]) a = k;
+      if (p[0] &gt; pr[b][0]) b = k;
+      if (p[1] &gt; pr[c][1]) c = k;
+    });
+    return [ring[a], ring[b], ring[c]];
+  }
+  function fillet(pts, rs, n = 4) {
+    const m = pts.length, out = [];
+    for (let i = 0; i &lt; m; i++) {
+      const a = pts[(i + m - 1) % m], p = pts[i], b = pts[(i + 1) % m];
+      const la = Math.hypot(a[0] - p[0], a[1] - p[1]), lb = Math.hypot(b[0] - p[0], b[1] - p[1]);
+      const t = Math.min(rs[i], la / 2, lb / 2);
+      const p1 = [p[0] + (a[0] - p[0]) / la * t, p[1] + (a[1] - p[1]) / la * t];
+      const p2 = [p[0] + (b[0] - p[0]) / lb * t, p[1] + (b[1] - p[1]) / lb * t];
+      for (let k = 0; k &lt;= n; k++) {
+        const s = k / n, w = 1 - s;
+        out.push([w * w * p1[0] + 2 * w * s * p[0] + s * s * p2[0], w * w * p1[1] + 2 * w * s * p[1] + s * s * p2[1]]);
+      }
+    }
+    return out;
+  }
+  function ghost(P, front, ring, z0, depth) {
+    const f = run(ring, front), lowP = ringAt(P, f, z0 - depth);
+    return {
+      d: open(lowP) + [f[0], f[f.length - 1]].map((q) =&gt; seg(P(q.u, q.v, z0), P(q.u, q.v, z0 - depth))).join(&quot;&quot;),
+      y0: Math.min(...ringAt(P, f, z0).map((p) =&gt; p[1])),
+      y1: Math.max(...lowP.map((p) =&gt; p[1])) + 2
+    };
+  }
+
+  // packages/hairline/src/core/motion.ts
+  var reduced = false;
+  var setReducedMotion = (on) =&gt; {
+    reduced = on;
+  };
+  var reducedMotion = () =&gt; reduced;
+  function spring(x, o = {}) {
+    return { x, v: 0, t: x, k: o.k ?? 100, c: o.c ?? 18, m: o.m ?? 1, eps: o.eps ?? 0.01 };
+  }
+  function stepS(sp, dt) {
+    if (reduced) {
+      sp.x = sp.t;
+      sp.v = 0;
+      return false;
+    }
+    const n = Math.max(1, Math.ceil(dt * 240)), h = dt / n;
+    for (let i = 0; i &lt; n; i++) {
+      const a = (-sp.k * (sp.x - sp.t) - sp.c * sp.v) / sp.m;
+      sp.v += a * h;
+      sp.x += sp.v * h;
+    }
+    if (Math.abs(sp.x - sp.t) &lt; sp.eps &amp;&amp; Math.abs(sp.v) &lt; sp.eps * 10) {
+      sp.x = sp.t;
+      sp.v = 0;
+      return false;
+    }
+    return true;
+  }
+  function bezier(x1, y1, x2, y2) {
+    const cx = 3 * x1, bx = 3 * (x2 - x1) - cx, ax = 1 - cx - bx;
+    const cy = 3 * y1, by = 3 * (y2 - y1) - cy, ay = 1 - cy - by;
+    const X = (u) =&gt; ((ax * u + bx) * u + cx) * u;
+    const Y = (u) =&gt; ((ay * u + by) * u + cy) * u;
+    const dX = (u) =&gt; (3 * ax * u + 2 * bx) * u + cx;
+    return (t) =&gt; {
+      if (t &lt;= 0) return 0;
+      if (t &gt;= 1) return 1;
+      let u = t;
+      for (let i = 0; i &lt; 8; i++) {
+        const e = X(u) - t;
+        if (Math.abs(e) &lt; 1e-5) break;
+        const d = dX(u);
+        if (Math.abs(d) &lt; 1e-6) break;
+        u -= e / d;
+      }
+      if (!(u &gt;= 0 &amp;&amp; u &lt;= 1) || Math.abs(X(u) - t) &gt; 1e-4) {
+        let lo = 0, hi = 1;
+        u = t;
+        for (let i = 0; i &lt; 24; i++) {
+          if (X(u) &lt; t) lo = u;
+          else hi = u;
+          u = (lo + hi) / 2;
+        }
+      }
+      return Y(u);
+    };
+  }
+  var EASE_LIFT = bezier(0.32, 0.72, 0, 1);
+  var tween = (v, dur = 700) =&gt; ({ from: v, to: v, t0: -1e9, dur });
+  var tval = (tw, now) =&gt; {
+    const p = clamp((now - tw.t0) / tw.dur, 0, 1);
+    return tw.from + (tw.to - tw.from) * (reduced ? 1 : EASE_LIFT(p));
+  };
+  var tset = (tw, to, now, delay) =&gt; {
+    if (tw.to === to) return;
+    tw.from = tval(tw, now);
+    tw.to = to;
+    tw.t0 = now + delay;
+  };
+  var tdone = (tw, now) =&gt; reduced || now &gt;= tw.t0 + tw.dur;
+
+  // packages/hairline/src/core/stage.ts
+  var NS = &quot;http://www.w3.org/2000/svg&quot;;
+  function mk(tag, attrs, parent) {
+    const e = document.createElementNS(NS, tag);
+    if (attrs) for (const k in attrs) e.setAttribute(k, String(attrs[k]));
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function solid(parent) {
+    const g = mk(&quot;g&quot;, {}, parent);
+    return { g, sil: mk(&quot;path&quot;, { class: &quot;sil&quot; }, g), cr: mk(&quot;path&quot;, { class: &quot;nf lo&quot; }, g) };
+  }
+  var put = (el, s) =&gt; {
+    el.sil.setAttribute(&quot;d&quot;, s.sil);
+    el.cr.setAttribute(&quot;d&quot;, s.crease);
+  };
+  var flatDot = (parent, C, r, cls) =&gt; mk(&quot;ellipse&quot;, { rx: r2(r * C.S), ry: r2(r * C.S * C.k), class: cls }, parent);
+  var place = (el, q) =&gt; {
+    el.setAttribute(&quot;cx&quot;, String(r2(q[0])));
+    el.setAttribute(&quot;cy&quot;, String(r2(q[1])));
+  };
+  var fid = 0;
+  function fade(svg, y0, y1, a0 = 0.7) {
+    const id = &quot;hl-fd&quot; + ++fid, defs = mk(&quot;defs&quot;, {}, svg);
+    const lg = mk(&quot;linearGradient&quot;, { id: id + &quot;g&quot;, gradientUnits: &quot;userSpaceOnUse&quot;, x1: 0, y1: r2(y0), x2: 0, y2: r2(y1) }, defs);
+    mk(&quot;stop&quot;, { offset: 0, &quot;stop-color&quot;: &quot;#fff&quot;, &quot;stop-opacity&quot;: a0 }, lg);
+    mk(&quot;stop&quot;, { offset: 1, &quot;stop-color&quot;: &quot;#fff&quot;, &quot;stop-opacity&quot;: 0 }, lg);
+    const m = mk(&quot;mask&quot;, { id, maskUnits: &quot;userSpaceOnUse&quot;, x: 0, y: 0, width: 400, height: 320 }, defs);
+    mk(&quot;rect&quot;, { x: 0, y: 0, width: 400, height: 320, fill: `url(#${id}g)` }, m);
+    return `url(#${id})`;
+  }
+  function reflect(svg, parent, P, front, ring, z0, depth) {
+    const r = ghost(P, front, ring, z0, depth);
+    const gh = mk(&quot;g&quot;, { class: &quot;ghost&quot;, mask: fade(svg, r.y0, r.y1) }, parent);
+    mk(&quot;path&quot;, { d: r.d }, gh);
+  }
+  var boards = [];
+  var byStage = /* @__PURE__ */ new Map();
+  var raf = 0;
+  var last = 0;
+  var io = null;
+  var rm = null;
+  function frame(now) {
+    const dt = Math.min(0.05, Math.max(0, (now - last) / 1e3));
+    last = now;
+    let any = false;
+    for (const b of boards.slice()) if (b.vis &amp;&amp; b.awake) {
+      b.awake = !!b.tick(dt, now);
+      any = any || b.awake;
+    }
+    raf = any ? requestAnimationFrame(frame) : 0;
+  }
+  function wake(b) {
+    b.awake = true;
+    if (!raf) {
+      last = performance.now();
+      raf = requestAnimationFrame(frame);
+    }
+  }
+  var onMotion = () =&gt; {
+    setReducedMotion(!!rm?.matches);
+    boards.forEach(wake);
+  };
+  function start() {
+    if (io) return;
+    io = new IntersectionObserver((es) =&gt; {
+      for (const e of es) {
+        const b = byStage.get(e.target);
+        if (!b) continue;
+        b.vis = e.isIntersecting;
+        if (b.vis) wake(b);
+      }
+    }, { rootMargin: &quot;80px&quot; });
+    rm = matchMedia(&quot;(prefers-reduced-motion: reduce)&quot;);
+    setReducedMotion(rm.matches);
+    rm.addEventListener(&quot;change&quot;, onMotion);
+  }
+  function stop() {
+    if (raf) cancelAnimationFrame(raf);
+    raf = 0;
+    io?.disconnect();
+    io = null;
+    rm?.removeEventListener(&quot;change&quot;, onMotion);
+    rm = null;
+  }
+  function register(stage, tick) {
+    start();
+    const b = { stage, tick, vis: false, awake: true };
+    boards.push(b);
+    byStage.set(stage, b);
+    io.observe(stage);
+    tick(0, performance.now());
+    let gone = false;
+    return {
+      wake: () =&gt; {
+        if (!gone) wake(b);
+      },
+      unregister: () =&gt; {
+        if (gone) return;
+        gone = true;
+        boards = boards.filter((x) =&gt; x !== b);
+        if (byStage.get(stage) === b) {
+          byStage.delete(stage);
+          io?.unobserve(stage);
+        }
+        if (!boards.length) stop();
+      }
+    };
+  }
+  function pointer(stage, on) {
+    let tm = 0;
+    const pt = (e) =&gt; {
+      const r = stage.getBoundingClientRect();
+      return [(e.clientX - r.left) / r.width * 400, (e.clientY - r.top) / r.height * 320];
+    };
+    const move = (e) =&gt; {
+      clearTimeout(tm);
+      on.move(pt(e), e);
+    };
+    const down = (e) =&gt; {
+      clearTimeout(tm);
+      if (e.pointerType !== &quot;mouse&quot;) stage.releasePointerCapture?.(e.pointerId);
+      if (on.down) on.down(pt(e), e);
+      else on.move(pt(e), e);
+    };
+    const leave = (e) =&gt; {
+      clearTimeout(tm);
+      tm = window.setTimeout(() =&gt; on.leave(e), e.pointerType === &quot;mouse&quot; ? 0 : 1400);
+    };
+    stage.addEventListener(&quot;pointermove&quot;, move);
+    stage.addEventListener(&quot;pointerdown&quot;, down);
+    stage.addEventListener(&quot;pointerleave&quot;, leave);
+    return () =&gt; {
+      clearTimeout(tm);
+      stage.removeEventListener(&quot;pointermove&quot;, move);
+      stage.removeEventListener(&quot;pointerdown&quot;, down);
+      stage.removeEventListener(&quot;pointerleave&quot;, leave);
+    };
+  }
+  function disposer() {
+    let fns = [];
+    return {
+      add: (fn) =&gt; {
+        fns.push(fn);
+      },
+      on: (target, type, fn, opts) =&gt; {
+        const h = fn;
+        target.addEventListener(type, h, opts);
+        fns.push(() =&gt; target.removeEventListener(type, h, opts));
+      },
+      dispose: () =&gt; {
+        const run2 = fns;
+        fns = [];
+        for (let i = run2.length - 1; i &gt;= 0; i--) run2[i]();
+      }
+    };
+  }
+
+  // packages/hairline/src/core/styles.ts
+  var LIGHT = { plate: &quot;#ffffff&quot;, hi: &quot;#232327&quot;, edge: &quot;#a4a4ac&quot;, mid: &quot;#c3c3c9&quot;, lo: &quot;#e0e0e4&quot; };
+  var DARK = { plate: &quot;#08090a&quot;, hi: &quot;#d0d6e0&quot;, edge: &quot;#5b5d64&quot;, mid: &quot;#3e3e44&quot;, lo: &quot;#29292d&quot; };
+  var KEYS = [&quot;plate&quot;, &quot;hi&quot;, &quot;edge&quot;, &quot;mid&quot;, &quot;lo&quot;];
+  var vars = (p) =&gt; KEYS.map((k) =&gt; `--hl-${k}:var(--hairline-${k},${p[k]});`).join(&quot;&quot;);
+  var EASE = &quot;cubic-bezier(0.5,0,0.1,1)&quot;;
+  var SVG = &quot;:where([data-hairline]&gt;svg)&quot;;
+  function css(lightDark) {
+    const both = Object.fromEntries(KEYS.map((k) =&gt; [k, `light-dark(${LIGHT[k]},${DARK[k]})`]));
+    return [
+      // the box, and the palette: light unless something below says otherwise
+      `:where([data-hairline]){display:block;position:relative;aspect-ratio:5/4;touch-action:pan-y;user-select:none;-webkit-user-select:none;--hl-sw:var(--hairline-stroke,0.9);${vars(LIGHT)}}`,
+      // the page's color-scheme
+      lightDark ? `:where([data-hairline]){${vars(both)}}` : &quot;&quot;,
+      // an ancestor that says dark
+      `:where(.dark,[data-theme=&quot;dark&quot;]) :where([data-hairline]){${vars(DARK)}}`,
+      // the figure's own theme option
+      `:where([data-hairline][data-hairline-theme=&quot;light&quot;]){${vars(LIGHT)}}`,
+      `:where([data-hairline][data-hairline-theme=&quot;dark&quot;]){${vars(DARK)}}`,
+      `:where([data-hairline]:focus-visible){outline:1.5px solid var(--hl-hi);outline-offset:2px}`,
+      `${SVG}{position:absolute;inset:0;width:100%;height:100%;display:block}`,
+      // Riffle's live region: read, not seen
+      `:where([data-hairline]&gt;[data-hairline-live]){position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}`,
+      // the drawing: plates are filled with the plate colour and painted back to front
+      `${SVG} :where(path,polygon,ellipse,line){fill:var(--hl-plate);stroke:var(--hl-mid);stroke-width:var(--hl-sw);vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round;transition:stroke 260ms ${EASE}}`,
+      `${SVG} :where(.nf){fill:none}`,
+      `${SVG} :where(.fo){stroke:none}`,
+      `${SVG} :where(.sil){stroke:var(--hl-edge)}`,
+      `${SVG} :where(.hi){stroke:var(--hl-hi)}`,
+      `${SVG} :where(.lo){stroke:var(--hl-lo)}`,
+      `${SVG} :where(.dash){stroke-dasharray:1 3}`,
+      `${SVG} :where(.dot){stroke:none;fill:var(--hl-hi);transition:fill 260ms ${EASE}}`,
+      `${SVG} :where(.dot.m){fill:var(--hl-edge)}`,
+      `${SVG} :where(.dot.off){fill:var(--hl-lo)}`,
+      `${SVG} :where(.ghost path){fill:none;stroke:var(--hl-mid)}`
+    ].join(&quot;&quot;);
+  }
+  var done = /* @__PURE__ */ new WeakSet();
+  function inject(root) {
+    if (done.has(root)) return;
+    done.add(root);
+    const doc = root.nodeType === 9 ? root : root.ownerDocument;
+    const win = doc.defaultView;
+    const text = css(!!win?.CSS?.supports?.(&quot;color&quot;, &quot;light-dark(#000,#fff)&quot;));
+    if (win &amp;&amp; &quot;adoptedStyleSheets&quot; in root) {
+      try {
+        const sheet = new win.CSSStyleSheet();
+        sheet.replaceSync(text);
+        root.adoptedStyleSheets = [...root.adoptedStyleSheets, sheet];
+        return;
+      } catch {
+      }
+    }
+    const style = doc.createElement(&quot;style&quot;);
+    style.setAttribute(&quot;data-hairline-style&quot;, &quot;&quot;);
+    style.textContent = text;
+    (root.nodeType === 9 ? doc.head ?? doc.documentElement : root).appendChild(style);
+  }
+  return __toCommonJS(kernel_exports);
+})();
+/* /hairline kernel */
+&lt;/script&gt;
+&lt;script id=&quot;hl-bench&quot;&gt;
+/*
+ * The bench: the page a figure is shown on. It makes the host and the svg the
+ * way the package's mount does, hands them to the figure, and owns everything
+ * around it: the read-out, the slider, the theme, the line under the stage.
+ */
+(() =&gt; {
+  const RULES = [&quot;hit&quot;, &quot;order&quot;, &quot;reach&quot;, &quot;accent&quot;, &quot;rest&quot;, &quot;honesty&quot;, &quot;cost&quot;, &quot;clock&quot;, &quot;radius&quot;, &quot;quiet&quot;];
+  const $ = (id) =&gt; document.getElementById(id);
+  const root = document.documentElement, params = new URLSearchParams(location.search);
+
+  /* the theme: the system's until the switch is pressed, then the switch's */
+  const dark = () =&gt; (root.dataset.theme ? root.dataset.theme === &quot;dark&quot; : matchMedia(&quot;(prefers-color-scheme: dark)&quot;).matches);
+  const label = () =&gt; { $(&quot;theme&quot;).textContent = dark() ? &quot;dark&quot; : &quot;light&quot;; };
+  $(&quot;theme&quot;).addEventListener(&quot;click&quot;, () =&gt; { root.dataset.theme = dark() ? &quot;light&quot; : &quot;dark&quot;; label(); });
+  /* ?theme=light or ?theme=dark wins over the system's, as pressing the switch does */
+  if ([&quot;light&quot;, &quot;dark&quot;].includes(params.get(&quot;theme&quot;))) root.dataset.theme = params.get(&quot;theme&quot;);
+  label();
+
+  /* ?intensity=0 sets the slider before the figure mounts, for a look at either end */
+  const i = (params.get(&quot;intensity&quot;) || &quot;&quot;).trim();
+  if (i &amp;&amp; Number.isFinite(Number(i))) $(&quot;intensity&quot;).value = String(Math.min(1, Math.max(0, Number(i))));
+
+  /* ?w=240 narrows the page, for a look at the size of a thumbnail */
+  const w = Number(params.get(&quot;w&quot;));
+  if (w &gt; 0) document.querySelector(&quot;main&quot;).style.maxWidth = w + &quot;px&quot;;
+
+  /* a figure that fails says so under the stage, instead of leaving an empty plate */
+  addEventListener(&quot;error&quot;, (e) =&gt; {
+    $(&quot;error&quot;).hidden = false;
+    $(&quot;error&quot;).textContent = String((e.error &amp;&amp; e.error.message) || e.message);
+  });
+
+  let mounted = false;
+  window.hairline = (figure) =&gt; {
+    if (mounted) throw new Error(&quot;hairline: one figure per page.&quot;);
+    mounted = true;
+    const stage = $(&quot;stage&quot;), slider = $(&quot;intensity&quot;);
+
+    /* intensity to the figure's own number: two straight lines that meet at 0.5, as in the package */
+    const [lo, mid, hi] = figure.range;
+    const at = (i) =&gt; Math.round((i &lt;= 0.5 ? lo + (i / 0.5) * (mid - lo) : mid + ((i - 0.5) / 0.5) * (hi - mid)) * 1000) / 1000;
+
+    HL.inject(document);
+    stage.setAttribute(&quot;data-hairline&quot;, figure.name);
+    stage.setAttribute(&quot;role&quot;, &quot;img&quot;);
+    stage.setAttribute(&quot;aria-label&quot;, figure.means);
+    const svg = HL.mk(&quot;svg&quot;, { viewBox: &quot;0 0 400 320&quot;, &quot;aria-hidden&quot;: &quot;true&quot; }, stage);
+
+    let text = null;
+    const read = {
+      get textContent() { return text; },
+      set textContent(value) { text = value == null ? &quot;&quot; : String(value); $(&quot;read&quot;).textContent = text; },
+    };
+
+    document.title = &quot;Hairline · &quot; + figure.name;
+    $(&quot;name&quot;).textContent = figure.name;
+    $(&quot;means&quot;).textContent = figure.means;
+    $(&quot;rules&quot;).textContent = figure.rules.map((n) =&gt; String(n).padStart(2, &quot;0&quot;) + &quot; &quot; + RULES[n - 1]).join(&quot; · &quot;);
+    const show = () =&gt; { $(&quot;value&quot;).textContent = String(at(Number(slider.value))); };
+    show();
+
+    const handle = figure.mount({ stage, svg, read }, at(Number(slider.value)));
+    if (text === null) read.textContent = &quot;rest&quot;;
+    slider.addEventListener(&quot;input&quot;, () =&gt; { show(); handle.set(at(Number(slider.value))); });
+    window.hairline.figure = handle;
+
+    /* ?at=200,160 holds the pointer at a viewBox point, for a picture of the answer without a mouse */
+    const p = (params.get(&quot;at&quot;) || &quot;&quot;).split(&quot;,&quot;).map(Number);
+    if (p.length === 2 &amp;&amp; p.every(Number.isFinite)) {
+      const r = stage.getBoundingClientRect();
+      stage.dispatchEvent(new PointerEvent(&quot;pointermove&quot;, {
+        pointerType: &quot;mouse&quot;, pointerId: 1, bubbles: true,
+        clientX: r.left + (p[0] / 400) * r.width, clientY: r.top + (p[1] / 320) * r.height,
+      }));
+    }
+  };
+})();
+&lt;/script&gt;
+&lt;script type=&quot;module&quot; id=&quot;hl-figure&quot;&gt;
+/**
+ * Bagua detector: four physical layers of the classroom prototype.
+ * Pointer x scrubs the explode gap; pointer y selects one layer.
+ */
+const {
+  Cam, circ, clamp, extremes, facing, fillet, fit, hull, lerp, open, poly, prism, proj,
+  ringAt, rings, rrect, seg, spring, stepS, disposer, flatDot, mk, place, pointer, put,
+  register, solid,
+} = HL;
+
+const NAMES = [&quot;底座&quot;, &quot;主控板&quot;, &quot;传感器&quot;, &quot;太极顶盖&quot;];
+const TK = [5, 2.2, 2.2, 4.5];
+const REST = 0.27, MIN = 0.08;
+const OCT = [[-50,-72],[50,-72],[72,-50],[72,50],[50,72],[-50,72],[-72,50],[-72,-50]];
+
+function octRing(inset, radius) {
+  const k = (72 - inset) / 72;
+  return fillet(OCT.map(([x,y]) =&gt; [x * k, y * k]), new Array(8).fill(radius), 4).map(([u,v]) =&gt; {
+    const m = Math.hypot(u, v) || 1;
+    return { u, v, nu: u / m, nv: v / m };
+  });
+}
+
+function inside(pt, pg) {
+  let c = false;
+  for (let i = 0, j = pg.length - 1; i &lt; pg.length; j = i++) {
+    const [xi, yi] = pg[i], [xj, yj] = pg[j];
+    if ((yi &gt; pt[1]) !== (yj &gt; pt[1]) &amp;&amp; pt[0] &lt; ((xj - xi) * (pt[1] - yi)) / (yj - yi) + xi) c = !c;
+  }
+  return c;
+}
+
+function mount({ stage, svg, read }, value) {
+  const bag = disposer();
+  let GAP = value, share = null, act = -1, lastP = null;
+  const e = spring(REST, { eps: 0.003 });
+  const C = Cam(45, 0.5, 1.34);
+  const H = 2 * (40 + 6);
+  fit(C, [[-72,-72,-H],[72,-72,-H],[-72,72,-H],[72,72,-H],[-72,-72,H],[72,72,H]], 200, 166);
+  const P = proj(C), front = facing(C), g = mk(&quot;g&quot;, {}, svg);
+
+  const outer = octRing(0, 5), inner = octRing(2.4, 3.4);
+  const [boardR, boardI] = rings(-48, -36, 45, 29, 6, 1.4);
+  const [sensorR, sensorI] = rings(-31, 34, 31, 60, 5, 1.2);
+  const ringsByLayer = [[outer, inner], [boardR, boardI], [sensorR, sensorI], [outer, inner]];
+  const foot = [OCT, [[-48,-36],[45,-36],[45,29],[-48,29]], [[-31,34],[31,34],[31,60],[-31,60]], OCT];
+
+  const guide = mk(&quot;path&quot;, { class: &quot;nf dash&quot; }, g);
+  const layers = ringsByLayer.map(([ring, crease]) =&gt; ({ ring, crease, el: solid(g), marks: mk(&quot;path&quot;, { class: &quot;nf lo&quot; }, g), dots: [] }));
+
+  const slot = rrect(-28, 42, 28, 56, 4, 5);
+  const chip = rrect(-18, -13, 9, 13, 3, 5);
+  const usb = rrect(-48, -12, -34, 8, 3, 5);
+  const eye = circ(8, 24), eyeInner = circ(3.4, 18);
+  const ledA = flatDot(layers[3].el.g, C, 3.4, &quot;dot m&quot;), ledB = flatDot(layers[3].el.g, C, 3.4, &quot;dot m&quot;);
+  const sensorDots = [[-22,41],[22,41],[-22,53],[22,53]].map(() =&gt; flatDot(layers[2].el.g, C, 1.35, &quot;dot off&quot;));
+  const pinDots = [];
+  for (let x = -38; x &lt;= 35; x += 8) pinDots.push(flatDot(layers[1].el.g, C, 0.95, &quot;dot off&quot;));
+
+  function bases(gapShare) {
+    const step = GAP * gapShare + 5;
+    return [-1.5, -0.5, 0.5, 1.5].map((n) =&gt; n * step);
+  }
+
+  function drawLayer(i, z) {
+    const L = layers[i], top = z + TK[i];
+    put(L.el, prism(P, front, L.ring, L.crease, z, top));
+    if (i === 0) {
+      L.marks.setAttribute(&quot;d&quot;, poly(ringAt(P, slot, top)) + seg(P(-45,55,top), P(-30,55,top)) + seg(P(30,55,top), P(45,55,top)));
+    } else if (i === 1) {
+      L.marks.setAttribute(&quot;d&quot;, poly(ringAt(P, chip, top)) + poly(ringAt(P, usb, top)) + seg(P(17,-18,top), P(36,-18,top)) + seg(P(17,-10,top), P(36,-10,top)));
+      pinDots.forEach((d, k) =&gt; place(d, P(-38 + k * 8, 23, top)));
+    } else if (i === 2) {
+      L.marks.setAttribute(&quot;d&quot;, poly(ringAt(P, eye, top)) + poly(ringAt(P, eyeInner, top)) + seg(P(-13,47,top), P(13,47,top)));
+      [[-22,41],[22,41],[-22,53],[22,53]].forEach(([x,y], k) =&gt; place(sensorDots[k], P(x,y,top)));
+    } else {
+      const s = [];
+      for (let t = -42; t &lt;= 42; t += 6) s.push(P(14 * Math.sin(t / 18), t, top));
+      L.marks.setAttribute(&quot;d&quot;, open(s) + poly(ringAt(P, circ(10, 24).map(q =&gt; ({...q,u:q.u,y:q.v-25,v:q.v-25})), top)));
+      place(ledA, P(0,-25,top)); place(ledB, P(0,25,top));
+    }
+  }
+
+  const drawn = [NaN, NaN, NaN, NaN];
+  const B = register(stage, (dt) =&gt; {
+    const moving = stepS(e, dt), b = bases(e.x);
+    b.forEach((z, i) =&gt; { if (z !== drawn[i]) { drawn[i] = z; drawLayer(i, z); } });
+    const ext = extremes(P, outer).slice(0, 2);
+    guide.setAttribute(&quot;d&quot;, ext.map(q =&gt; seg(P(q.u,q.v,b[3]), P(q.u,q.v,b[0] + TK[0]))).join(&quot;&quot;));
+    return moving;
+  });
+  bag.add(B.unregister);
+
+  function pick(p) {
+    const b = bases(e.t);
+    for (let i = 3; i &gt;= 0; i--) {
+      const top = foot[i].map(([x,y]) =&gt; P(x,y,b[i] + TK[i]));
+      const shape = hull(top.concat(foot[i].map(([x,y]) =&gt; P(x,y,b[i]))));
+      if (inside(p, shape)) return i;
+    }
+    let best = 0, dist = Infinity;
+    b.forEach((z, i) =&gt; { const d = Math.abs(P(0,0,z + TK[i])[1] - p[1]); if (d &lt; dist) { dist = d; best = i; } });
+    return best;
+  }
+
+  function setAct(a) {
+    if (a === act) return;
+    act = a;
+    const lit = a &lt; 0 ? 1 : a;
+    layers.forEach((L, i) =&gt; L.el.sil.classList.toggle(&quot;hi&quot;, i === lit));
+    read.textContent = a &lt; 0 ? &quot;rest&quot; : `${String(a + 1).padStart(2,&quot;0&quot;)} · ${NAMES[a]}`;
+    B.wake();
+  }
+  setAct(-1);
+
+  bag.add(pointer(stage, {
+    move: (p) =&gt; { lastP = p; share = lerp(MIN, 1, clamp((p[0] - 55) / 290, 0, 1)); e.t = share; setAct(pick(p)); B.wake(); },
+    leave: () =&gt; { lastP = null; share = null; e.t = REST; setAct(-1); B.wake(); },
+  }));
+  bag.add(() =&gt; svg.replaceChildren());
+
+  return {
+    set: (v) =&gt; { GAP = v; if (lastP) setAct(pick(lastP)); B.wake(); },
+    destroy: bag.dispose,
+  };
+}
+
+hairline({
+  name: &quot;bagua-detector&quot;,
+  means: &quot;八卦检测仪分成四层；横向移动打开结构，纵向移动选择部件。&quot;,
+  rules: [1, 3, 4, 5, 8, 9, 10],
+  range: [16, 28, 40],
+  mount,
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe><span>在图中移动鼠标或手指 · theme 可切换明暗</span></div>
+  </section>
+  <div class="subsection-heading"><span>工程线稿</span><p>用于查看外形尺寸、安装位置和制作说明</p></div>
   <div class="drawing-toolbar"><div role="group" aria-label="选择结构图"><button data-drawing="exterior" aria-pressed="true">外观三视图</button><button data-drawing="exploded" aria-pressed="false">内部拆解图</button></div><button id="downloadDrawing" class="quiet">下载当前线稿 SVG ↓</button></div>
   <div class="drawing-sheet"><div id="structureCanvas"></div></div>
   <div class="drawing-caption"><strong id="drawingCaption">顶视、正面与右侧视图 · 约 12 × 12 × 5 cm</strong><span>元件尺寸和孔位需实测 · 结构示意，不是制造图</span></div>
   <div class="structure-notes"><div><h3>传感器对准卡片</h3><p>感光面朝下，卡片沿前方卡槽进入；距离和照明条件需保持一致。</p></div><div><h3>USB 供电走线</h3><p>Type-C 插头位于充电宝端，线缆从侧面走线口进入，连接 UNO 的 USB-B 接口。</p></div><div><h3>双灯各自限流</h3><p>两个 LED 随顶盖移动，每盏灯分别串联 220Ω 电阻，负极连接共用 GND。</p></div></div>
  </section>
- <footer><span>八卦食品有害金属检测仪 · 交互演示 v2</span><span>依据设计报告构建 · 元件尺寸为示意</span><span><a href="https://look.ams-osram.com/m/664723bdb31f55db/original/TCS3200-DS000107.pdf" target="_blank" rel="noopener">TCS3200 数据手册 ↗</a> · <a href="https://docs.arduino.cc/hardware/uno-rev3/" target="_blank" rel="noopener">UNO 文档 ↗</a> · <a href="https://github.com/img2threejs/img2threejs" target="_blank" rel="noopener">img2threejs ↗</a></span></footer>
+ <footer><span>八卦食品有害金属检测仪 · 交互演示 v2</span><span>依据设计报告构建 · 元件尺寸为示意</span><span><a href="https://look.ams-osram.com/m/664723bdb31f55db/original/TCS3200-DS000107.pdf" target="_blank" rel="noopener">TCS3200 数据手册 ↗</a> · <a href="https://docs.arduino.cc/hardware/uno-rev3/" target="_blank" rel="noopener">UNO 文档 ↗</a> · <a href="https://github.com/img2threejs/img2threejs" target="_blank" rel="noopener">img2threejs ↗</a> · <a href="https://github.com/lucasmarkes/hairline" target="_blank" rel="noopener">Hairline ↗</a></span></footer>
 </main>
 <div id="toast" role="status"></div>
 <script>/* Three.js license
